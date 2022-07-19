@@ -1,0 +1,124 @@
+*,*::before,*::after{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+:root
+{
+	--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+
+}
+body{
+margin:auto;
+    font-family: 'Red Hat Display', sans-serif;
+	}
+.img{
+	max-width: 100%;
+}
+.container
+{
+display: flex;
+
+flex-direction: column;
+}
+.hero-img
+{
+	
+   width:352px;
+	border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+	}	
+	.card
+	{
+		justify-content: center;
+align-items: center;  
+background-color: #fff; 
+	
+max-width:22rem;	
+	margin: 0 auto;		 
+  
+	border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+       
+	}
+	.hero-title
+	{
+		margin-top: 1em;
+		margin-bottom: 1em;
+		text-align: center;
+	}
+	.hero-text
+	{
+		color:var(--Desaturated-blue);
+		display: flex;
+		text-align: center;
+		margin-bottom: 1em;
+	
+	}
+	.music-icon{
+		margin-right:1em;
+	}
+	.price-section
+
+	{   
+		display: flex;
+
+		padding:1em;
+		background-color:  var(--Very-pale-blue);
+		border-radius: 10px;
+		margin-bottom: 1em;
+
+	}
+	.price
+	{
+		color:var(--Desaturated-blue);
+		
+	}
+	.price-section-sub
+	{
+		display:flex;
+		flex-direction: column;
+	     margin-right: 8em;
+	}
+	.change
+	{
+		text-decoration: none;
+		
+		margin-top: .2em;
+		padding-right:5em;
+		
+	}
+	.change:hover
+	{
+color:purple;
+cursor: pointer;
+	}
+.payment
+{
+	background-color: var(--Bright-blue);
+	padding:.5rem;
+	border-radius:5px;
+	color:#fff;
+	text-align: center;
+	justify-content: center;
+	align-self: center;
+
+	cursor: pointer;
+}
+
+.cancel
+{    margin-top: 1em;
+	text-align: center;
+	color: var(--Pale-blue);
+	margin-bottom: 2em;
+}
+.cancel:hover
+{
+color: var(--Dark-blue);
+cursor: pointer;
+}
