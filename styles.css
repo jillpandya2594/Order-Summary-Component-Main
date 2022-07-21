@@ -98,6 +98,11 @@ max-width:22rem;
 color:purple;
 cursor: pointer;
 	}
+.payment-section
+	{
+		padding-right: 1em;
+		padding-left: 1em;
+	}
 .payment
 {
 	background-color: var(--Bright-blue);
