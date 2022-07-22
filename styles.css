@@ -95,6 +95,11 @@ max-width:22rem;
 		flex-direction: column;
 	     margin-right: 4em;
 	}
+.annual-plan
+	{
+		font-size: 14px;
+
+	}
 	.change
 	{
 		text-decoration: none;
