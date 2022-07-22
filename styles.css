@@ -77,6 +77,10 @@ max-width:22rem;
 		background-color:  var(--Very-pale-blue);
 		border-radius: 10px;
 		margin-bottom: 1em;
+		flex-direction: row;
+		align-items:center;
+		justify-content: space-between;
+		
 
 	}
 	.price
@@ -88,7 +92,7 @@ max-width:22rem;
 	{
 		display:flex;
 		flex-direction: column;
-	     margin-right: 8em;
+	     margin-right: 4em;
 	}
 	.change
 	{
