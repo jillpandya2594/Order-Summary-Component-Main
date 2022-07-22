@@ -112,6 +112,8 @@ cursor: pointer;
 	{
 		padding-right: 1em;
 		padding-left: 1em;
+		display: flex;
+		flex-direction: column;
 	}
 .payment
 {
@@ -131,6 +133,10 @@ cursor: pointer;
 	text-align: center;
 	color: var(--Pale-blue);
 	margin-bottom: 2em;
+	border: transparent;
+	background-color:#fff;
+justify-content: center;
+align-items: center;
 }
 .cancel:hover
 {
